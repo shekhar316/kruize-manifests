@@ -2,13 +2,13 @@
   "metadata_profiles": [
     {
       "name": "cluster-metadata-local-monitoring",
-      "profile_version": "1"
+      "profile_version": "1.0"
     }
   ],
-  "performance_profiles": [
+  "metric_profiles": [
     {
       "name": "resource-optimization-local-monitoring",
-      "profile_version": "1"
+      "profile_version": "1.0"
     }
   ]
 }
