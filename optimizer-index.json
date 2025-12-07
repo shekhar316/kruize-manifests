@@ -10,5 +10,33 @@
       "name": "resource-optimization-local-monitoring",
       "profile_version": "1.0"
     }
+  ],
+  "layers": [
+    {
+      "name": "container"
+    },
+    {
+      "name": "openj9"
+    },
+    {
+      "name": "hotspot"
+    },
+    {
+      "name": "quarkus"
+    }
+  ],
+  "rulesets": [
+    {
+      "name": "container-hotspot"
+    },
+    {
+      "name": "container-hotspot-quarkus"
+    },
+    {
+      "name": "container-openj9"
+    },
+    {
+      "name": "container-openj9-quarkus"
+    }
   ]
 }
